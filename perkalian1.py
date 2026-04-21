@@ -28,9 +28,9 @@ while True:
         if 1 <= angka <= 10:
             break
         else:
-            print("⚠️  Masukkan angka antara 1 sampai 10!")
+            print("  Masukkan angka antara 1 sampai 10!")
     except ValueError:
-        print("⚠️  Input harus berupa angka!")
+        print("  Input harus berupa angka!")
 
 print()
 print(f"Tabel Perkalian {angka}:")
